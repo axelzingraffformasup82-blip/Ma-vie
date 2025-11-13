@@ -1,0 +1,95 @@
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.hero{
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.texte{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texte:hover{
+    transform: rotate(360deg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border-radius: 400px;
+    transition: all 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallerie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pics{
+    max-width: 30vw;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.pics img{
+    border: solid;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.logo{
+    background-image: url('../images/ma_vie_logo_transparent.png');
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+nav{
+    width: 200px;
+    height: 50px;
+}
+
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 20px;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: red;
+    font-family: fantasy;
+}
